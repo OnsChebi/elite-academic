@@ -15,7 +15,7 @@ export default function PublishPage() {
         mx-auto w-full
         
         px-5 sm:px-6 md:px-8 lg:px-[112px]           /* larger padding on desktop as in spec */
-        mt-10 sm:mt-12 md:mt-16 lg:mt-20
+        mt-1  md:mt-16 lg:mt-20
       ">
         <FromBlog />
       </div>

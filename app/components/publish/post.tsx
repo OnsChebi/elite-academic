@@ -99,7 +99,7 @@ export default function Post() {
           <div
             className="
               bg-[#F9FAFB] rounded-[16px]
-              max-h-[318px] overflow-hidden
+               0 overflow-hidden
               px-6 py-8 lg:p-10
               flex flex-col gap-5 lg:gap-6
             "

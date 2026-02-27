@@ -79,8 +79,9 @@ export default function PubHeader() {
         </div>
 
         <div className="
-          w-full max-w-[1216px] mx-auto
-          aspect-[1216/560]
+          w-full max-w-[1216px] mx-auto 
+          px-5 sm:px-8 md:px-0
+          aspect-[1216/560] 
           rounded-[24px] overflow-hidden
           shadow-xl
         ">
@@ -89,7 +90,7 @@ export default function PubHeader() {
             alt="Featured university scene"
             width={1216}
             height={560}
-            className="object-cover"
+            className="object-cover w-full h-full rounded-[24px]"
             
           />
         </div>
