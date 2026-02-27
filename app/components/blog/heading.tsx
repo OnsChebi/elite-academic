@@ -36,7 +36,7 @@ export default function BlogHeader() {
             >
               <span
                 className="
-                  font-['Inter'] font-[600]
+                  font-inter font-[600]
                   text-sm sm:text-base lg:text-[16px]
                   leading-6 lg:leading-[24px]
                   text-[#0F70EA]

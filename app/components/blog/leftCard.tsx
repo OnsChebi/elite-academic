@@ -37,7 +37,7 @@ export default function LeftCard() {
       ">
         {/* Author*/}
         <p className="
-          font-['Inter'] font-semibold
+          font-inter font-semibold
           text-sm leading-5
           text-[#0F70EA]
         ">
@@ -81,7 +81,7 @@ export default function LeftCard() {
         <div className="flex flex-wrap gap-2">
           <Badge
             variant="outline"
-            className=" font-['Inter'] font-[14px]
+            className=" font-inter font-[14px]
               text-xs font-[500]
               px-2.5 py-0.5 rounded-full
               border-none
@@ -93,7 +93,7 @@ export default function LeftCard() {
           <Badge
             variant="outline"
             className="
-              font-['Inter'] font-[14px]
+              font-inter font-[14px]
               text-xs font-[500]
               px-2.5 py-0.5 rounded-full
               border-none

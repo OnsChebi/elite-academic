@@ -104,7 +104,7 @@ export default function FAQ() {
                 </div>
               </button>
 
-              {/* Answer – shown when open */}
+              {/* Answer*/}
               {openIndex === index && (
                 <div
                   id={`faq-answer-${index}`}

@@ -66,17 +66,16 @@ export default function DetailedProgramCard({
           {/* Blue duration pill */}
           <div
               className="
-              inline-flex items-center gap-[10px]
+              inline-flex items-center gap-2.5
                 font-Manrope font-[500]
                 text-sm sm:text-base lg:text-[16px]
                 text-white
                 bg-[#1686FA]
-                px-4 sm:px-5 lg:px-[16px]
-                py-1.5 lg:py-2
+                px-4 
+                py-2 
                 rounded-full
-                whitespace-nowrap
-                max-w-[204px]
-                max-h-[36px]
+                self-start
+                
               "
             >
               <ClockCheck />
@@ -121,13 +120,13 @@ export default function DetailedProgramCard({
   <span
     className="
       inline-flex items-center gap-[4px]
-      px-[6px_8px_2px_6px] lg:px-[6px_8px]
+      px-2 
       h-[22px]
       bg-white
       border border-[rgba(255,255,255,0.3)]
       rounded-[16px]
       text-xs font-[500]
-      font-['Inter']
+      font-inter
       text-[#026AA2]
       shadow-sm
     "
@@ -178,13 +177,12 @@ export default function DetailedProgramCard({
   <span
     className="
       inline-flex items-center gap-[4px]
-      px-[6px_8px_6px_6px] lg:px-[6px_8px]
+      px-2 py-0.5
       h-[22px]
       bg-white
-      border border-[rgba(255,255,255,0.3)]
       rounded-[16px]
       text-xs font-[500]
-      font-['Inter']
+      font-inter
       text-[#026AA2]
       shadow-sm
     "

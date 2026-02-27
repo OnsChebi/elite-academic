@@ -77,7 +77,7 @@ export function BlogCard({
           {/* Title*/}
           <h3
             className="
-              font-['Manrope'] font-semibold
+              font-manrope font-semibold
               text-lg sm:text-[17px] lg:text-xl
               leading-6 sm:leading-[22px]
               text-[#101828]
@@ -90,7 +90,7 @@ export function BlogCard({
           {/* Excerpt*/}
           <p
             className="
-              font-['Manrope'] font-normal
+              font-manrope font-normal
               text-sm sm:text-[13px] lg:text-base
               leading-5 sm:leading-[17px] lg:leading-6
               text-[#475467]
@@ -115,7 +115,7 @@ export function BlogCard({
               text-[#101828]
             "
             subtitleClassName="
-              font-['Inter'] font-normal
+              font-inter font-normal
               text-sm sm:text-[14px] leading-5
               text-[#475467]
             "

@@ -153,7 +153,7 @@ export default function AllBlogPosts() {
                   <div className="flex flex-1 flex-col gap-5 lg:gap-6 p-6 lg:p-8">
                     {/* Author + Date */}
                     <div className="
-                      font-['Inter'] font-[600]
+                      font-inter font-[600]
                       text-sm leading-5 text-[#0F70EA]
                     ">
                       {post.author} • {post.date}
@@ -217,7 +217,7 @@ export default function AllBlogPosts() {
           >
             {/* Previous */}
             <button className="
-              flex items-center gap-2 text-[#475467] font-['Inter'] font-[600] text-sm
+              flex items-center gap-2 text-[#475467] font-inter font-[600] text-sm
               hover:text-[#0F70EA] transition-colors
             ">
               <ArrowUpRight className="h-5 w-5 rotate-180" strokeWidth={2} />
@@ -244,7 +244,7 @@ export default function AllBlogPosts() {
 
             {/* Next */}
             <button className="
-              flex items-center gap-2 text-[#475467] font-['Inter'] font-[600] text-sm
+              flex items-center gap-2 text-[#475467] font-inter font-[600] text-sm
               hover:text-[#0F70EA] transition-colors
             ">
               Next

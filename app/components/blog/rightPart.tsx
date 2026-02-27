@@ -25,7 +25,7 @@ export function SmallBlogCard({ image, author, date, title, excerpt, badges }: S
       {/* Text content */}
       <div className="flex flex-col gap-6 flex-1">
         <div className="flex flex-col gap-2">
-          <p className="font-['Inter'] font-semibold text-sm text-[#0F70EA]">
+          <p className="font-inter font-semibold text-sm text-[#0F70EA]">
             {author} • {date}
           </p>
           <h4 className="font-manrope font-semibold text-lg leading-6 text-[#101828] line-clamp-2">

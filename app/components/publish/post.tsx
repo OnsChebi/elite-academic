@@ -55,7 +55,7 @@ export default function Post() {
 
             <div className="flex items-center gap-1.5 text-[#475467]">
               <Link2 className="w-4 h-4 stroke-[1.5] text-[#98A2B3]" />
-              <p className="text-sm leading-5 font-['Inter']">
+              <p className="text-sm leading-5 font-inter">
                 Image courtesy of Fauxels via{" "}
                 <a
                   href="https://www.pexels.com"
@@ -144,7 +144,7 @@ export default function Post() {
             titleClassName="font-['Comfortaa'] font-[600]
             text-[17px] sm:text-lg leading-6 sm:leading-7
             text-[#101828] truncate"
-            subtitleClassName="font-['Inter'] font-[400]
+            subtitleClassName="font-inter font-[400]
             text-xs sm:text-sm lg:text-[13.5px]
             leading-5 sm:leading-6
             text-[#475467] truncate"
@@ -158,7 +158,7 @@ export default function Post() {
                 flex items-center gap-2 px-4 py-2.5 
                 border border-[#D0D5DD] rounded-lg
                 shadow-xs hover:bg-gray-50 transition-colors
-                text-sm font-[600] text-[#344054] font-['Inter']
+                text-sm font-[600] text-[#344054] font-inter
               "
             >
               <Copy className="w-5 h-5" />
